@@ -103,7 +103,6 @@ A word cloud of the top words across all topics is generated, saved to word_clou
       wordcloud = WordCloud(width=800, height=400,       background_color='white').generate(wordcloud_text)
       wordcloud.to_file('word_cloud.png')
 
-[C:\Users\Hetal\Downloads\Term 3\Social Media Analytics\Team_Sigma_Assignment-1\Assignment-1_Part-2\word_cloud.png]
 
 ## Interactive HTML
 
