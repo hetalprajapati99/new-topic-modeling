@@ -71,8 +71,6 @@ This script uses the News API to fetch the latest articles. Replace API_KEY in t
       response = requests.get(url)
       data = response.json()
 
-
-
 ## Data Cleaning
 
 Each article's content is cleaned by:
