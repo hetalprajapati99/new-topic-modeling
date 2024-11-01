@@ -87,8 +87,8 @@ Each article's content is cleaned by:
    Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
 
       ```python
-         # Building and training the LDA model
-         lda_model = gensim.models.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=15)
+      # Building and training the LDA model
+      lda_model = gensim.models.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=15)
 
 ## Word Cloud Generation
 
