@@ -113,7 +113,7 @@ A word cloud of the top words across all topics is generated, saved to word_clou
 
 The clickable [word_cloud.html](word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
 
-![Word Cloud](word_cloud.html)
+![Word Cloud](file:///C:/Users/Hetal/Downloads/Term%203/Social%20Media%20Analytics/Team_Sigma_Assignment-1/Assignment-1_Part-2/lda_visualization.html)
 
 ## LDA Visualization
 
