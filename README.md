@@ -28,4 +28,15 @@ This project performs topic modeling and visualization on news articles fetched 
      git clone https://github.com/yourusername/news-topic-modeling.git
      cd news-topic-modeling
       
-## Install required libraries:
+  2. Install required libraries:
+
+     ```bash
+     pip install wordcloud matplotlib requests nltk gensim pyLDAvis
+     
+  3. Download necessary NLTK resources:
+
+     ```bash
+     import nltk
+     nltk.download('stopwords')
+
+
