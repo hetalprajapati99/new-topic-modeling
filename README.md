@@ -128,6 +128,9 @@ A bar chart displays the average score of the top 5 topics, showing their relati
       ```python
       plt.barh(top_topic_names, top_scores, color='skyblue')
 
+![image](https://github.com/user-attachments/assets/1e681b95-77f4-4c61-90d5-262fd6b6ab84)
+
+
 ## Results
 
 The project generates insightful visualizations that help in understanding the trending topics in technology based on the news articles fetched. The word cloud gives a quick overview of the most prevalent terms, while the LDA visualization helps in diving deeper into the underlying topics.
