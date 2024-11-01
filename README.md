@@ -125,6 +125,20 @@ The model visualization [lda_visualization.html](lda_visualization.html) uses py
    ```python
    pyLDAvis.save_html(vis, 'lda_visualization.html')
    ```
+### How to View LDA Visualization
+
+To view the LDA visualization, follow these steps:
+
+   1. **Start a Local Server:**
+
+      Navigate to the directory containing your HTML file and run"
+
+      ```bash
+      python -m http.server 8000
+      
+   2. **Open the LDA Visualization:**
+
+      Once the server is running, navigate to the lda_visualization.html file in your browser
 
    ![image](https://github.com/user-attachments/assets/e02e3fec-1c6f-4a90-a631-766fca6c3b27)
 
