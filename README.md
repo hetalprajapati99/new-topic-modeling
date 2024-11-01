@@ -63,7 +63,7 @@ Make sure you have the following installed:
 
 ## Data Collection
 
-This script uses the News API to fetch the latest articles. Replace API_KEY in the code with your News API key.
+   This script uses the News API to fetch the latest articles. Replace API_KEY in the code with your News API key.
 
     ```bash
     # Querying the API
@@ -89,7 +89,7 @@ Each article's content is cleaned by:
 
 ## Topic Modeling
 
-Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
+      Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
 
       ```python 
       # Building and training the LDA model
