@@ -122,7 +122,7 @@ A bar chart displays the average score of the top 5 topics, showing their relati
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE]https://opensource.org/license/mit file for more details.
+This project is licensed under the MIT License. See the LICENSE[https://opensource.org/license/mit] file for more details.
 
 
       
