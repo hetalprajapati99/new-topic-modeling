@@ -13,9 +13,16 @@ This project uses the News API to fetch articles on the topic of "technology," p
   - LDA Visualization
   - Top Topics Visualization
 
-**Project Overview**
+## Project Overview
 This project performs topic modeling and visualization on news articles fetched from News API to:
 
-1.Identify key topics in technology news.
-2.Visualize important words using a word cloud.
-3.Generate an HTML file with clickable words linked to news articles.
+  1. Identify key topics in technology news.
+  2. Visualize important words using a word cloud.
+  3. Generate an HTML file with clickable words linked to news articles.
+
+## Installation
+
+  1. Clone the repository:
+
+      git clone https://github.com/yourusername/news-topic-modeling.git
+      cd news-topic-modeling
