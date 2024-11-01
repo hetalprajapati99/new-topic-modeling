@@ -57,8 +57,8 @@ Each article's content is cleaned by:
   - Removing punctuation and numbers
   - Converting to lowercase and removing stopwords
 
-  ```python
-  def clean_text(text):
+    ```python
+    def clean_text(text):
     # Your text cleaning function
 
 
