@@ -113,7 +113,10 @@ A word cloud of the top words across all topics is generated, saved to word_clou
 
 The clickable [word_cloud.html](word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
 
-![Word Cloud](![image](![image](https://github.com/user-attachments/assets/bb951121-ed6d-483c-86c8-ffca44115c8f)
+(![image](![image](https://github.com/user-attachments/assets/bb951121-ed6d-483c-86c8-ffca44115c8f)
+
+![image](https://github.com/user-attachments/assets/0ed4e895-704f-498a-864d-fca98902862a)
+
 
 ## LDA Visualization
 
@@ -123,7 +126,7 @@ The model visualization [lda_visualization.html](lda_visualization.html) uses py
    pyLDAvis.save_html(vis, 'lda_visualization.html')
    ```
 
-![LDA Visualization](![image](https://github.com/user-attachments/assets/e02e3fec-1c6f-4a90-a631-766fca6c3b27)
+(![image](https://github.com/user-attachments/assets/e02e3fec-1c6f-4a90-a631-766fca6c3b27)
 
 ## Top Topics Visualization
 
