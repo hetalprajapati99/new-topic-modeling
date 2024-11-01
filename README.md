@@ -65,10 +65,10 @@ Make sure you have the following installed:
 
 This script uses the News API to fetch the latest articles. Replace API_KEY in the code with your News API key.
 
-    # Querying the API
-    url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
-    response = requests.get(url)
-    data = response.json()
+       # Querying the API
+       url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
+       response = requests.get(url)
+       data = response.json()
 
 ## Data Cleaning
 
@@ -88,19 +88,17 @@ Each article's content is cleaned by:
 
 ## Topic Modeling
 
-      Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
-
-      ```python 
-      # Building and training the LDA model
-      lda_model = gensim.models.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=15)
+   Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
+ 
+         # Building and training the LDA model
+         lda_model = gensim.models.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=15)
 
 ## Word Cloud Generation
 
 A word cloud of the top words across all topics is generated, saved to word_cloud.png, and displayed.
 
-      ```python
-      wordcloud = WordCloud(width=800, height=400,       background_color='white').generate(wordcloud_text)
-      wordcloud.to_file('word_cloud.png')
+         wordcloud = WordCloud(width=800, height=400,       background_color='white').generate(wordcloud_text)
+         wordcloud.to_file('word_cloud.png')
       
 
 ![Word Cloud](word_cloud.png)
