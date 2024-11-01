@@ -12,7 +12,7 @@ This repository contains a project focused on analyzing technology news articles
 - [Data Cleaning](#data-cleaning)
 - [Topic Modeling](#topic-modeling)
 - [Word Cloud Generatiom](#word-cloud-generation)
-- [Interactive HTML](#interative-html)
+- [Interactive HTML](#interactive-html)
 - [LDA Visualization](#lda-visualization)
 - [Top Topics Visualization](#top-topics-visualization)
 - [Results](#results)
