@@ -111,13 +111,13 @@ A word cloud of the top words across all topics is generated, saved to word_clou
 
 ## Interactive HTML
 
-The clickable [word cloud](word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
+The clickable [word_cloud.html](word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
 
 ![Word Cloud](word_cloud.html)
 
 ## LDA Visualization
 
-The model visualization (lda_visualization.html) uses pyLDAvis to display interactive topic clusters and word importance.
+The model visualization [lda_visualization.html](lda_visualization.html) uses pyLDAvis to display interactive topic clusters and word importance.
 
    ```python
    pyLDAvis.save_html(vis, 'lda_visualization.html')
@@ -129,7 +129,7 @@ The model visualization (lda_visualization.html) uses pyLDAvis to display intera
 
 A bar chart displays the average score of the top 5 topics, showing their relative prominence in the dataset.
 
-    ```python
+   ```python
    plt.barh(top_topic_names, top_scores, color='skyblue')
    ```
 
