@@ -61,7 +61,7 @@ Make sure you have the following installed:
      import nltk
      nltk.download('stopwords')
 
-   # Data Collection
+   ## Data Collection
    
    This script uses the News API to fetch the latest articles. Replace `API_KEY` in the code with your News API key.
    
@@ -71,7 +71,7 @@ Make sure you have the following installed:
       response = requests.get(url)
       data = response.json()
 
-## Data Cleaning
+   ## Data Cleaning
 
 Each article's content is cleaned by:
 
