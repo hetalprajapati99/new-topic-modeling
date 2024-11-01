@@ -66,7 +66,6 @@ Make sure you have the following installed:
 This script uses the News API to fetch the latest articles. Replace `API_KEY` in the code with your News API key.
 
       ```python
-      # Querying the API
       url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
       response = requests.get(url)
       data = response.json()
