@@ -63,13 +63,7 @@ Make sure you have the following installed:
 
 # Data Collection
 
-This script uses the News API to fetch the latest articles. Replace `API_KEY` in the code with your News API key.
 
-```python
-# Querying the API
-url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
-response = requests.get(url)
-data = response.json()
 
 
 ## Data Cleaning
@@ -91,7 +85,8 @@ Each article's content is cleaned by:
 ## Topic Modeling
 
    Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
- 
+
+   ```python
          # Building and training the LDA model
          lda_model = gensim.models.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=15)
 
