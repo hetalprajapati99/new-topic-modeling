@@ -102,6 +102,7 @@ A word cloud of the top words across all topics is generated, saved to word_clou
       ```python
       wordcloud = WordCloud(width=800, height=400,       background_color='white').generate(wordcloud_text)
       wordcloud.to_file('word_cloud.png')
+      
 
 ![Word Cloud](word_cloud.png)
 
@@ -109,12 +110,16 @@ A word cloud of the top words across all topics is generated, saved to word_clou
 
 The clickable word cloud (word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
 
+![Word Cloud](word_cloud.html)
+
 ## LDA Visualization
 
 The model visualization (lda_visualization.html) uses pyLDAvis to display interactive topic clusters and word importance.
 
       ```python
       pyLDAvis.save_html(vis, 'lda_visualization.html')
+
+![LDA Visualization](lda_visualization.html)
 
 ## Top Topics Visualization
 
