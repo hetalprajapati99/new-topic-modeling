@@ -3,15 +3,15 @@
 This project uses the News API to fetch articles on the topic of "technology," perform topic modeling using Latent Dirichlet Allocation (LDA), and generate a word cloud to visualize the most prominent words. The analysis is done in Python using libraries like gensim, wordcloud, and pyLDAvis.
 
 **Table of Contents**
--Project Overview
--Installation
--Data Collection
--Data Cleaning
--Topic Modeling
--Word Cloud Generation
--Interactive HTML
--LDA Visualization
--Top Topics Visualization
+  -Project Overview
+  -Installation
+  -Data Collection
+  -Data Cleaning
+  -Topic Modeling
+  -Word Cloud Generation
+  -Interactive HTML
+  -LDA Visualization
+  -Top Topics Visualization
 
 **Project Overview**
 This project performs topic modeling and visualization on news articles fetched from News API to:
