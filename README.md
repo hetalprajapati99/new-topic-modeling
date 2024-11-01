@@ -13,7 +13,7 @@ This repository contains a project focused on analyzing technology news articles
 - [Topic Modeling](#topic-modeling)
 - [Word Cloud Generatiom](#word-cloud-generation)
 - [Interactive HTML](#interative-html)
-- [LDA Visualizations](#lda-visualizations)
+- [LDA Visualization](#lda-visualization)
 - [Top Topics Visualization](#top-topics-visualization)
 - [Results](#results)
 - [License](#license)
