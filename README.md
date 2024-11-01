@@ -43,11 +43,11 @@ This project performs topic modeling and visualization on news articles fetched 
 
 This script uses the News API to fetch the latest articles. Replace API_KEY in the code with your News API key.
 
-  ```bash
-  # Querying the API
-  url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
-  response = requests.get(url)
-  data = response.json()
+    ```bash
+    # Querying the API
+    url = f'https://newsapi.org/v2/everything?q=technology&apiKey={API_KEY}'
+    response = requests.get(url)
+    data = response.json()
 
 ## Data Cleaning
 
