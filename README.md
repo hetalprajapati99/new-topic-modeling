@@ -131,7 +131,7 @@ To view the LDA visualization, follow these steps:
 
    1. **Start a Local Server:**
 
-      Navigate to the directory containing your HTML file and run"
+      Navigate to the directory containing your HTML file and run:
 
       ```bash
       python -m http.server 8000
