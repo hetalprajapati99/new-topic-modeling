@@ -120,6 +120,9 @@ A bar chart displays the average score of the top 5 topics, showing their relati
       ```python
       plt.barh(top_topic_names, top_scores, color='skyblue')
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE]https://opensource.org/license/mit file for more details.
 
 
       
