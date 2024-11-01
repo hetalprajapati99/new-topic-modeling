@@ -30,7 +30,7 @@ This repository contains a project focused on analyzing technology news articles
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -38,7 +38,7 @@ Make sure you have the following installed:
 - pip
 - Git (to clone the repository)
 
-### Installation
+## Installation
 
 1. **Clone the Repository:**
 
@@ -61,7 +61,7 @@ Make sure you have the following installed:
      import nltk
      nltk.download('stopwords')
 
-### Data Collection
+## Data Collection
    
 This script uses the News API to fetch the latest articles. Replace `API_KEY` in the code with your News API key.
 
@@ -72,7 +72,7 @@ This script uses the News API to fetch the latest articles. Replace `API_KEY` in
    data = response.json()
    ```
 
-### Data Cleaning
+## Data Cleaning
 
 Each article's content is cleaned by:
 
@@ -88,7 +88,7 @@ Each article's content is cleaned by:
        text = text.lower()  # Convert to lowercase
        return ' '.join([word for word in text.split() if word not in stop_words])  # Remove stopwords
 
-### Topic Modeling
+## Topic Modeling
 
 Using Gensim's LDA model, the script discovers topics within the article content. You can adjust the number of topics by modifying num_topics.
 
@@ -109,29 +109,29 @@ A word cloud of the top words across all topics is generated, saved to word_clou
 
 ![Word Cloud](word_cloud.png)
 
-### Interactive HTML
+## Interactive HTML
 
-The clickable word cloud (word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
+The clickable [word cloud](word_cloud.html) links each prominent word to a Google News search, offering a quick way to explore related news articles.
 
 ![Word Cloud](word_cloud.html)
 
-### LDA Visualization
+## LDA Visualization
 
 The model visualization (lda_visualization.html) uses pyLDAvis to display interactive topic clusters and word importance.
 
-      ```python
-      pyLDAvis.save_html(vis, 'lda_visualization.html')
-      ```
+   ```python
+   pyLDAvis.save_html(vis, 'lda_visualization.html')
+   ```
 
 ![LDA Visualization](lda_visualization.html)
 
-### Top Topics Visualization
+## Top Topics Visualization
 
 A bar chart displays the average score of the top 5 topics, showing their relative prominence in the dataset.
 
-      ```python
-      plt.barh(top_topic_names, top_scores, color='skyblue')
-      ```
+    ```python
+   plt.barh(top_topic_names, top_scores, color='skyblue')
+   ```
 
 ![image](https://github.com/user-attachments/assets/1e681b95-77f4-4c61-90d5-262fd6b6ab84)
 
