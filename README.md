@@ -57,7 +57,7 @@ Make sure you have the following installed:
      
   3. **Download necessary NLTK resources:**
 
-     ```bash
+     ```python
      import nltk
      nltk.download('stopwords')
 
