@@ -25,7 +25,7 @@ This project performs topic modeling and visualization on news articles fetched 
   1. Clone the repository:
 
       ```bash
-     <p style="color:orange;">git clone https://github.com/yourusername/news-topic-modeling.git</p>
-     <p style="color:orange;">cd news-topic-modeling</p>
+     <span style="color:orange;">`git clone https://github.com/yourusername/news-topic-modeling.git1</span>
+     <span style="color:orange;">`cd news-topic-modeling`</span>
       
 ## Install required libraries:
