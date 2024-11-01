@@ -15,6 +15,7 @@ This repository contains a project focused on analyzing technology news articles
 - [Interactive HTML](#interative-html)
 - [LDA Visualizations](#lda-visualizations)
 - [Top Topics Visualization](#top-topics-visualization)
+- [Results](#results)
 - [License](#license)
 
 ## Features
@@ -99,8 +100,10 @@ Using Gensim's LDA model, the script discovers topics within the article content
 A word cloud of the top words across all topics is generated, saved to word_cloud.png, and displayed.
 
       ```python
-      wordcloud = WordCloud(width=800, height=400, background_color='white').generate(wordcloud_text)
+      wordcloud = WordCloud(width=800, height=400,       background_color='white').generate(wordcloud_text)
       wordcloud.to_file('word_cloud.png')
+
+![Word Cloud](C:\Users\Hetal\Downloads\Term 3\Social Media Analytics\Team_Sigma_Assignment-1\Assignment-1_Part-2\word_cloud.png)
 
 ## Interactive HTML
 
@@ -119,6 +122,10 @@ A bar chart displays the average score of the top 5 topics, showing their relati
 
       ```python
       plt.barh(top_topic_names, top_scores, color='skyblue')
+
+## Results
+
+The project generates insightful visualizations that help in understanding the trending topics in technology based on the news articles fetched. The word cloud gives a quick overview of the most prevalent terms, while the LDA visualization helps in diving deeper into the underlying topics.
 
 ## License
 
